@@ -5,7 +5,7 @@
 
 # import myfirstpackage
 
-from myfirstpackage.subdir import *
+# from myfirstpackage.subdir import *
 
 # myfirstpackage.module1.myfunc()
 # myfirstpackage.module2.myfunc()
@@ -15,5 +15,10 @@ from myfirstpackage.subdir import *
 
 # myfirstpackage.myfunc()
 
-myfunc()
-myfunc2()
+# myfunc()
+# myfunc2()
+
+
+import myfirstpackage.subdir.module2
+
+myfirstpackage.subdir.module2.myfunc2()
